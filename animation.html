@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-Bounce and Shutup</title>
+  <link rel="shortcut icon" href="images/index.png" type="image/x-icon">
+
+  <style>
+
+@keyframes slidein {
+    0% {
+        left: 0; top: 0;
+        background-color: yellow;
+    }
+
+    50%{
+        left: 400px; top: 100px;
+        background-color: red;
+    }
+
+    100% {
+        left: 800px; top: 0;
+        background-color: blue;   
+        
+    }
+    
+}
+      .stage {
+          background-color: darkgreen;
+          height: 200px;
+          min-width: 800px;
+          
+          
+      }
+      .ball {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: rgb(245, 115, 29);
+            position: absolute;
+            }
+
+        .stage:hover ball {
+        animation: slidein 5s ease-in-out 3s infinite alternate;
+    }
+
+  </style>
+</head>
+<body>
+
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+
+</body>
+</html>
