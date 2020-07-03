@@ -8,3 +8,23 @@ git push -u origin master
 …or push an existing repository from the command line
 git remote add origin https://github.com/AyeshaWebHero/CSS3-module7.git
 git push -u origin master
+
+
+css3 fun transition 
+https://www.lynda.com/CSS-tutorials/CSS-Transforms-Transitions/674608-2.html
+
+
+https://css-tricks.com/css-animation-tricks/  
+In this chapter you will learn about the following properties:
+
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
